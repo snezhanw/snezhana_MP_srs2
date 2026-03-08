@@ -45,7 +45,7 @@ with st.sidebar:
     st.image("https://raw.githubusercontent.com/snezhanw/snezhana_MP_srs2/main/1221.JPG", 
              caption="Vibe Check! ✨")
     
-    st.title("💖 Настройки МАС")
+    st.title("💖 wwwwwwwwwww")
     st.success(f"🤖 Модель: {MODEL_NAME}")
     
     st.link_button("🔥 Вступить в СББП (Instagram)", "https://www.instagram.com/sbbp_kaznu/")
@@ -146,10 +146,9 @@ if st.button("🚀 Сгенерировать гид и вступить в дв
             status.update(label="✅ Гид успешно составлен!", state="complete", expanded=False)
             
             st.markdown("### ✨ Результат работы агентов:")
-            st.markdown(result.raw)
+            st.markdown(result) 
             st.balloons()
-            
-            st.download_button("📥 Скачать гид (.md)", result.raw, file_name="kaznu_guide.md")
+
+            st.download_button("📥 Скачать гид (.md)", str(result), file_name="kaznu_guide.md")
         except Exception as e:
             st.error(f"Произошла ошибка: {e}")
-            st.info("Проверь, что в настройках (Secrets) указан действующий API ключ.")
