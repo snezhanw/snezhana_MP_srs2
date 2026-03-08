@@ -1,5 +1,5 @@
+setuptools==69.5.1
 streamlit
 crewai==0.28.8
 langchain-google-genai==1.0.1
-setuptools
 python-dotenv
