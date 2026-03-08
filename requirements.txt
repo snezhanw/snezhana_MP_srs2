@@ -1,4 +1,5 @@
-crewai
-langchain-google-genai
 streamlit
+crewai==0.28.8
+langchain-google-genai==1.0.1
+setuptools
 python-dotenv
